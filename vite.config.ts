@@ -13,7 +13,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://backend-sea.onrender.com',
+        target: 'https://9q3qgm4c-8080.uks1.devtunnels.ms',
         changeOrigin: true,
         secure: false,
       },
